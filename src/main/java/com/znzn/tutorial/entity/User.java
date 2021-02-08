@@ -44,6 +44,4 @@ public class User {
             inverseJoinColumns = {@JoinColumn(name = "authority_name", referencedColumnName = "authority_name")})
     private Set<Authority> authorities;
 
-    public User(String subject, String s, Collection<? extends GrantedAuthority> authorities) {
-    }
 }
